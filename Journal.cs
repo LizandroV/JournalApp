@@ -40,7 +40,7 @@ namespace JournalApp
         {
             _prompt = Prompt();
             Console.WriteLine(_prompt);
-            Console.Write(">");
+            Console.Write(">>");
             string myEntry = Console.ReadLine();
             return myEntry;
         }
